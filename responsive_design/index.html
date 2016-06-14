@@ -3,33 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <title>Portafolio Web</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
-  <header>
-    <span>< > Portafolio Web</span>
-    <nav>
-      <a href="">HOME</a>
-      <a href="">SERVICIOS</a>
-      <a href="">PORTAFOLIO</a>
-      <a href="">CONTACTO</a>
-    </nav>
-  </header>
+  <div class="home-wrapper">
+    <header>
+      <div class="container">
+        <span class="logo">< > Portafolio Web</span>
+        <nav>
+          <a href="#" class="active">HOME</a>
+          <a href="">SERVICIOS</a>
+          <a href="">PORTAFOLIO</a>
+          <a href="">CONTACTO</a>
+        </nav>
+      </div>
+    </header>
 
-  <section>
-    <h1>CREAMOS LAS APLICACIONES DEL FUTURO</h1>
-    <p>Dev Studio es la mejor opcion si necesitas un prototipo o quieres o quieres acelerar tu ciclo de desarrollo.</p>
-  </section>
+    <section id="home" class="container">
+      <h1>CREAMOS LAS <strong>APLICACIONES</strong>DEL FUTURO</h1>
+      <p>Dev Studio es la mejor opcion si necesitas un prototipo o quieres o quieres acelerar tu ciclo de desarrollo.</p>
 
-  <div>
-    <a href="">FACEBOOK</a>
-    <a href="">TWITTER</a>
-    <a href="">GITHUB</a>
+      <div class="social">
+        <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-github-square" aria-hidden="true"></i></a>
+      </div>
+    </section>
+
   </div>
 
-  <section>
+  <section id="servicios" class="container">
     <h2>SERVICIOS</h2>
-    <div>
+    <div class="box">
       <img src="images/web-design.png" alt="Web Design">
       <h3>Web Design</h3>
       <p>
@@ -37,7 +45,7 @@
         Asperiores labore qui natus assumenda earum repellendus!
       </p>
     </div>
-    <div>
+    <div class="box">
       <img src="images/web-development.png" alt="Web Develepment">
       <h3>Web Development</h3>
       <p>
@@ -45,7 +53,7 @@
         Asperiores labore qui natus assumenda earum repellendus!
       </p>
     </div>
-    <div>
+    <div class="box">
       <img src="images/ux-ui.png" alt="Web Mobile">
       <h3>Web Mobile</h3>
       <p>
@@ -55,13 +63,13 @@
     </div>
   </section>
 
-  <section>
-    <h1>Video</h1>
-  </section>
+  <!--<section>-->
+    <!--<h1>Video</h1>-->
+  <!--</section>-->
 
-  <section>
+  <section id="portafolio" class="container">
     <h2>PORTAFOLIO</h2>
-    <div>
+    <div class="box">
       <img src="images/portafolio/roundicons.png" alt="Iconos Redondeados">
       <h3>Iconos Redondeados</h3>
       <p>
@@ -69,7 +77,7 @@
         Asperiores labore qui natus assumenda earum repellendus!
       </p>
     </div>
-    <div>
+    <div class="box">
       <img src="images/portafolio/treehouse.png" alt="Creative Digital">
       <h3>Creative Digital</h3>
       <p>
@@ -77,9 +85,33 @@
         Asperiores labore qui natus assumenda earum repellendus!
       </p>
     </div>
-    <div>
+    <div class="box">
       <img src="images/portafolio/escape.png" alt="We can do that">
       <h3>We can do that</h3>
+      <p>
+        Elit soluta in provident qui numquam consectetur quae dignissimos.
+        Asperiores labore qui natus assumenda earum repellendus!
+      </p>
+    </div>
+    <div class="box">
+      <img src="images/portafolio/escape.png" alt="Escape">
+      <h3>Escape</h3>
+      <p>
+        Elit soluta in provident qui numquam consectetur quae dignissimos.
+        Asperiores labore qui natus assumenda earum repellendus!
+      </p>
+    </div>
+    <div class="box">
+      <img src="images/portafolio/dreams.png" alt="Dreams">
+      <h3>Dreams</h3>
+      <p>
+        Elit soluta in provident qui numquam consectetur quae dignissimos.
+        Asperiores labore qui natus assumenda earum repellendus!
+      </p>
+    </div>
+    <div class="box">
+      <img src="images/portafolio/startup-framework.png" alt="Escape">
+      <h3>Startup Framework</h3>
       <p>
         Elit soluta in provident qui numquam consectetur quae dignissimos.
         Asperiores labore qui natus assumenda earum repellendus!
