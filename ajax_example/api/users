@@ -1,0 +1,21 @@
+From Backend Team
+
+API
+
+---------
+Get All Users
+
+GET request to /api/orders
+Sample Response
+[
+  {
+    id: 1,
+    name: 'Vicente Fernandez',
+    age: 50
+  },
+  {
+    id: 2,
+    name: 'Pacheco',
+    age: 80
+  },
+]
