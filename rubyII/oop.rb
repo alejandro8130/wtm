@@ -216,3 +216,4 @@ user.store('users/user-1.xml')
 # definir variables que nos dice el a_n_o, color y modelo del carro.
 # crear una variable de instancia current_speed con un valor de 0 que nos va dar el current_speed del carro.
 # crear metodos de instancia que permiten al carro aumentar velocidad, frenar, y apagar el carro.
+
